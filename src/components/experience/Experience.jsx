@@ -18,7 +18,15 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>HTML</h4>
+                <h4>JavaScript</h4>
+                <small className='text-light'>Expert</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>React</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
@@ -26,15 +34,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>CSS</h4>
-                <small className='text-light'>Beginner</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>JS</h4>
+                <h4>Node Js / Express Js</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
@@ -42,23 +42,23 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>REACT</h4>
-                <small className='text-light'>Beginner</small>
+                <h4>Rest API</h4>
+                <small className='text-light'>Intermediate</small>
               </div>              
             </article>
 
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>BOOTSTRAP</h4>
-                <small className='text-light'>Beginner</small>
+                <h4>Mongo DB</h4>
+                <small className='text-light'>Intermediate</small>
               </div>              
             </article>
 
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>TAILWIND</h4>
+                <h4>Tailwind css</h4>
                 <small className='text-light'>Beginner</small>
               </div>             
             </article>
@@ -82,14 +82,14 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>SOLIDITY</h4>
-                <small className='text-light'>Beginner</small>
+                <small className='text-light'>Intermediate</small>
               </div>             
             </article>
 
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>NODE JS</h4>
+                <h4>PROVIDERS </h4>
                 <small className='text-light'>Intermediate</small>
               </div>              
             </article>
@@ -97,7 +97,21 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>CRANQ</h4>
+                <h4>IPFS</h4>
+                <small className='text-light'>Beginner</small>
+              </div>             
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Frameworks (Hardhat, Foundary)</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>             
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Chainlink, TheGraph</h4>
                 <small className='text-light'>Beginner</small>
               </div>             
             </article>

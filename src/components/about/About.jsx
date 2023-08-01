@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import change1 from '../../assets/me-about.jpg'
+import Developer from '../../assets/Developer.png'
 import{FaAward} from'react-icons/fa'
 import{MdSchool} from'react-icons/md'
 import{AiOutlineFundProjectionScreen} from'react-icons/ai'
@@ -14,7 +14,7 @@ const about = () => {
     <div className='container about__container'>
       <div className='about__me'>
         <div className='about__me-image'>
-          <img src={change1} alt="ye change karna hey"/>
+          <img src={Developer} alt="ye change karna hey"/>
         </div>
       </div>
       <div className='about__content'> 
@@ -23,12 +23,12 @@ const about = () => {
         <article className='about__card'>
           <FaAward className='about__icon'></FaAward>
           <h4>Experience in web3 Domain</h4>
-          <small> 1 Year</small>
+          <small> 1+ Year</small>
         </article>
 
         <article className='about__card'>
           <MdSchool className='about__icon'></MdSchool>
-          <h4>B.E Computer Engineeting</h4>
+          <h4>B.E Computer Engineering</h4>
           <small>Honors(Blockchain and Technology)</small>
         </article>
 
@@ -40,7 +40,7 @@ const about = () => {
 
       </div>
       <p>
-        Idhar khudke bareme kuch to acha likh jisse logoko lage ki tuze web3 developement ata hey aur unhe pata mahi chale ki tune ye copy paste karke banaya hey. 
+      Experienced Web3 Developer with a background in developing MERN (MongoDB, Express, React, Node.js) applications. Proficient in blockchain technologies and smart contracts with a strong foundation in building decentralized applications. Excited about leveraging both Web2 and Web3 expertise to shape the future of the internet
       </p>
       <a className='btn btn-primary ' href='#contact'> Let's Talk</a>
       </div>
